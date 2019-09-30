@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["app/src/*"],
+      "images/*": ["app/dist/images/*"]
+    },
+    "outDir": "app/dist/",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "strict": false
+  },
+  "include": [
+    "app/src/**/*",
+    "server/**/*",
+    "tests/**/*"
+  ]
+}
